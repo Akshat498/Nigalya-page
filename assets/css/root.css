@@ -8,6 +8,7 @@
     --fw-sm: 400;
     --fw-md: 600;
     --fw-lg: 700;
+    --fw-xl: 900;
 
     --fc-white: #FFFFFF;
     --fc-sky-blue: #39C6FD;
@@ -30,8 +31,12 @@
     font-weight: var(--fw-md);
 }
 
-.fw-lg{
+.fw-lg {
     font-weight: var(--fw-lg);
+}
+
+.fw-xl {
+    font-weight: var(--fw-xl);
 }
 
 .fs-sm {
@@ -108,7 +113,7 @@
     :root {
         --fs-xl: 48px;
         --fs-lg: 38px;
-        --lh-6: 50px;
+        --lh-5: 50px;
         --lh-7: 58px;
     }
 }
@@ -123,6 +128,6 @@
     :root {
         --fs-xl: 38px;
         --fs-lg: 28px;
-        --lh-6: 40px
+        --lh-5: 40px
     }
 }
