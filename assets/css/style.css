@@ -9,58 +9,6 @@
   text-decoration: none;
 }
 
-.d-flex {
-  display: flex;
-}
-
-.jost-font {
-  font-family: "Jost", serif;
-}
-
-.nav-ico {
-  padding: 15px 0px 15px 0px;
-}
-
-.pt-26 {
-  padding-top: 26px;
-}
-
-.pt-12 {
-  padding-top: 12px;
-}
-
-.parent {
-  display: flex;
-  gap: 29px;
-  margin-top: 44px;
-}
-
-.grow {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  align-items: center;
-  flex-direction: column;
-}
-
-.panda-img {
-  bottom: 0%;
-  position: absolute;
-  left: 5%;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.pt-31 {
-  padding-top: 31px;
-}
-
 .bg-img {
   background-image: url(/assets/images/png/bg-img.png);
   background-size: cover;
@@ -86,6 +34,68 @@
   padding-right: 12px;
 }
 
+.row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.flex-grow {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jost-font {
+  font-family: "Jost", serif;
+}
+
+.nav-ico {
+  padding: 15px 0px 15px 0px;
+}
+
+.pt-26 {
+  padding-top: 26px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.parent {
+  display: flex;
+  gap: 29px;
+  margin-top: 44px;
+  z-index: 1;
+  position: relative;
+}
+
+.panda-img {
+  bottom: 0%;
+  position: absolute;
+  left: 5%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-31 {
+  padding-top: 31px;
+}
+
 .pt-133 {
   padding-top: 133px;
 }
@@ -98,20 +108,16 @@
   right: 0%;
 }
 
-.row {
-  flex-wrap: wrap;
-  flex-direction: row;
-  display: flex;
-  margin-left: -12px;
-  margin-right: -12px;
-}
-
 .buton-1 {
   background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
   padding: 16px 32px 16px 32px;
   border-radius: 30.5px;
   border: none;
   cursor: pointer;
+}
+
+.buton-1:hover{
+  background: linear-gradient(135.55deg, #063050 -2.07%, #056090 105.81%);
 }
 
 .buton-2 {
@@ -136,11 +142,11 @@
   transition: all 300ms linear;
   transform-origin: left;
   border-radius: 10px;
-  background-color: #fff;
 }
 
 .z-5 {
   z-index: 5;
+  margin-top: 19px;
 }
 
 .bottom-text {
@@ -226,16 +232,14 @@
   }
 
   .nav-link {
-    display: flex !important;
     flex-direction: column;
-    background:#06AFF233;
-    backdrop-filter: blur(20px);
+    background:var(--fc-light-black);
     width: 100%;
     min-height: 100vh;
     position: fixed;
     justify-content: center;
-    bottom: 0;
-    right: -100% !important;
+    bottom: 0%;
+    right: -100% ;
     top: 0%;
     transition: all 300ms linear !important;
     z-index: 3;

@@ -12,8 +12,9 @@
 
     --fc-white: #FFFFFF;
     --fc-sky-blue: #39C6FD;
-    --fc-dark-blue:#00000080;
+    --fc-dark-blue: #00000080;
     --fc-blue: #070D37;
+    --fc-light-black: #001435;
 
 
     --lh-small: 18.24px;
@@ -64,6 +65,7 @@
 .lh-small {
     line-height: var(--lh-small);
 }
+
 .lh-1 {
     line-height: var(--lh-1);
 }
@@ -102,12 +104,20 @@
     background-color: var(--fc-dark-blue);
 }
 
+.bg-white {
+    background-color: var(--fc-white);
+}
+
 .fc-sky-blue {
     color: var(--fc-sky-blue);
 }
 
 .fc-blue {
     color: var(--fc-blue) !important;
+}
+
+.bg-light-black {
+    background-color: var(--fc-light-black);
 }
 
 .bg-blue {
@@ -120,7 +130,7 @@
         --fs-lg: 38px;
         --lh-5: 80px;
         --lh-7: 58px;
-    } 
+    }
 }
 
 @media (max-width:991.98px) {
