@@ -12,9 +12,11 @@
 
     --fc-white: #FFFFFF;
     --fc-sky-blue: #39C6FD;
-    --fc-dark-blue: #070D37;
+    --fc-dark-blue:#00000080;
     --fc-blue: #070D37;
 
+
+    --lh-small: 18.24px;
     --lh-1: 19.28px;
     --lh-2: 22.8px;
     --lh-3: 27.36px;
@@ -59,6 +61,9 @@
     font-size: var(--fs-small) !important;
 }
 
+.lh-small {
+    line-height: var(--lh-small);
+}
 .lh-1 {
     line-height: var(--lh-1);
 }
@@ -109,7 +114,16 @@
     background-color: var(--fc-blue);
 }
 
-@media (max-width:767.98px) {
+@media (max-width:1199.98px) {
+    :root {
+        --fs-xl: 68px;
+        --fs-lg: 38px;
+        --lh-5: 80px;
+        --lh-7: 58px;
+    } 
+}
+
+@media (max-width:991.98px) {
     :root {
         --fs-xl: 48px;
         --fs-lg: 38px;
