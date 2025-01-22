@@ -234,14 +234,15 @@
 }
 
 @media (max-width:1199.98px) {
-  .panda-img{
+  .panda-img {
     padding-top: 0;
   }
-  .parent{
+
+  .parent {
     margin-top: 26px;
   }
 
-  .pt-169{
+  .pt-169 {
     padding-top: 169px;
   }
 
@@ -321,13 +322,13 @@
 }
 
 @media (max-width:768px) {
-  .pt-169{
+  .pt-169 {
     padding-top: 100px;
   }
 }
 
-@media( max-width:575.98px ){
-    .panda-img {
+@media(max-width:575.98px) {
+  .panda-img {
     width: 80%;
     margin: auto;
     display: flex;
@@ -338,14 +339,19 @@
   .parent {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
 
-  .pt-20{
-    padding-top: 20px;
+  .pt-169 {
+    padding-top: 50px;
   }
+
+  .pt-20 {
+    padding-top: 10px;
+  }
+
   .panda-img {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
   }
