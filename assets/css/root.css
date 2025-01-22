@@ -5,7 +5,7 @@
     --fs-sm: 20px;
     --fs-md: 24px;
     --fs-lg: 36px;
-    --fs-xl: 96px;
+    --fs-xl: 94px;
 
     --fw-sm: 400;
     --fw-md: 600;
@@ -123,31 +123,39 @@
 
 @media (max-width:1199.98px) {
     :root {
-        --fs-xl: 68px;
+        --fs-xl: 66px;
         --fs-lg: 38px;
-        --lh-5: 80px;
-        --lh-7: 58px;
+ 
+        --lh-5: 77px;
     }
 }
 
 @media (max-width:991.98px) {
     :root {
-        --fs-xl: 48px;
+        --fs-xl: 66px;
         --fs-lg: 38px;
-        --lh-5: 50px;
-        --lh-7: 58px;
+       --lh-5:77px;
+    }
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-xl: 55px;
+        --fs-lg: 38px;
+       --lh-5:77px;
     }
 }
 
 @media (max-width:575.98px) {
     :root {
         --lh-7: 50px;
+        --fs-xl:44px;
     }
 }
 
 @media (max-width:424.98px) {
     :root {
-        --fs-xl: 38px;
+        --fs-xl: 34px;
         --fs-lg: 28px;
         --lh-5: 40px
     }
