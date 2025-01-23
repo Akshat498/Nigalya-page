@@ -17,12 +17,14 @@
     --fc-dark-blue: #00000080;
     --fc-blue: #070D37;
     --fc-light-black: #001435;
+    --fc-dark-black: #0D0D0D;
 
 
     --lh-small: 18.24px;
     --lh-1: 19.28px;
     --lh-2: 22.8px;
     --lh-3: 27.36px;
+    --lh-extra-3: 35.4px;
     --lh-4: 41.04px;
     --lh-5: 109.44px;
 }
@@ -84,6 +86,10 @@
     line-height: var(--lh-3);
 }
 
+.lh-extra-3{
+    line-height: var(--lh-extra-3);
+}
+
 .lh-4 {
     line-height: var(--lh-4);
 }
@@ -121,11 +127,15 @@
     background-color: var(--fc-light-black);
 }
 
+.bg-dark-black {
+    background-color: var(--fc-dark-black);
+}
+
 @media (max-width:1199.98px) {
     :root {
         --fs-xl: 66px;
         --fs-lg: 38px;
- 
+
         --lh-5: 77px;
     }
 }
@@ -134,7 +144,7 @@
     :root {
         --fs-xl: 66px;
         --fs-lg: 38px;
-       --lh-5:77px;
+        --lh-5: 77px;
     }
 }
 
@@ -142,14 +152,14 @@
     :root {
         --fs-xl: 55px;
         --fs-lg: 38px;
-       --lh-5:77px;
+        --lh-5: 77px;
     }
 }
 
 @media (max-width:575.98px) {
     :root {
         --lh-7: 50px;
-        --fs-xl:44px;
+        --fs-xl: 44px;
     }
 }
 
