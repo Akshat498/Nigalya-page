@@ -23,6 +23,7 @@
     --lh-small: 18.24px;
     --lh-1: 19.28px;
     --lh-2: 22.8px;
+    --lh-extra-2: 24px;
     --lh-3: 27.36px;
     --lh-extra-3: 35.4px;
     --lh-4: 41.04px;
@@ -82,11 +83,15 @@
     line-height: var(--lh-2);
 }
 
+.lh-extra-2 {
+    line-height: var(--lh-extra-2);
+}
+
 .lh-3 {
     line-height: var(--lh-3);
 }
 
-.lh-extra-3{
+.lh-extra-3 {
     line-height: var(--lh-extra-3);
 }
 
